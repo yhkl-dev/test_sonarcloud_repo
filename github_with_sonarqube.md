@@ -1,8 +1,5 @@
 # github_with_sonarqube
 
-![Img](./FILES/github_with_sonarqube.md/b994ee08.png)
-
-
 test github repo
 ```
 https://github.com/yhkl-dev/test_sonarcloud_repo
@@ -123,3 +120,35 @@ check analyze result in your sonarcloud
 
 And you can see the overview in your pull request as well
 ![Img](./FILES/github_with_sonarqube.md/71abb1d1.png)
+
+### how to disable sonarcloud code analyze rules
+
+
+![Img](./FILES/github_with_sonarqube.md/54383632.png)
+
+click copy
+
+![Img](./FILES/github_with_sonarqube.md/d30dfe32.png)
+
+![Img](./FILES/github_with_sonarqube.md/03bc1cc6.png)
+
+![Img](./FILES/github_with_sonarqube.md/08da51bb.png)
+In this page, you can edit your code metrics 
+
+and you can also add new condition
+![Img](./FILES/github_with_sonarqube.md/e26620b7.png)
+
+config python check rules
+![Img](./FILES/github_with_sonarqube.md/6bffaf7e.png)
+
+switch to quality profiles page, find python and click copy
+![Img](./FILES/github_with_sonarqube.md/6a543cf1.png)
+![Img](./FILES/github_with_sonarqube.md/6ab350c5.png)
+
+you can active and deactive rules.
+
+setup profiles
+![Img](./FILES/github_with_sonarqube.md/da570d09.png)
+![Img](./FILES/github_with_sonarqube.md/049e74fe.png)
+
+and then next code analyze will be your self-defined rules
