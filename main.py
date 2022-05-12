@@ -2,7 +2,6 @@ import os
 
 
 import base64
-import requests
 testArguments = 100
 
 X = [[12, 7],
@@ -10,6 +9,7 @@ X = [[12, 7],
      [3, 8]]
 
 result = [[0, 0, 0],
+
           [0, 0, 0]]
 
 # iterate through rows
