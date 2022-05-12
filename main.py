@@ -26,12 +26,12 @@ for r in result:
 
 def test_main():
     testURL = "https://www.baidu.com"
-    res = requests.get(testURL)
+    # res = requests.get(testURL)
     print("test main function")
     string = "x"
 
 
-    
+
     return base64.b64encode(string.encode("utf-8"))
 
 
