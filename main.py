@@ -2,9 +2,8 @@ import os
 
 
 import base64
-
+import requests
 testArguments = 100
-
 
 X = [[12, 7],
      [4, 5],
@@ -26,8 +25,14 @@ for r in result:
     print(r)
 
 def test_main():
+    testURL = "https://www.baidu.com"
+    res = requests.get(testURL)
     print("test main function")
-    return 0
+    string = "x"
+
+
+    
+    return base64.b64encode(string.encode("utf-8"))
 
 
 def main():
