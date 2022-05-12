@@ -19,7 +19,20 @@ for i in range(len(X)):
 
         result[j][i] = X[i][j]
 
-
+def pay_status(result):
+    '''根据接口返回code状态，给用户提示对应的结果'''
+    if result.get("code") == 0:
+        return "支付成功"
+    elif result.get("code") == 30000:
+        return "支付失败: %s" % result.get("msg")
+    elif result.get("code") == 30001:
+        return "支付失败: %s" % result.get("msg")
+    elif result.get("code") == 30002:
+        return "支付失败: %s" % result.get("msg")
+    elif result.get("code") == 201102:
+        return "支付失败: %s" % result.get("msg")
+    else:
+        return "支付失败: 系统异常，未知错误"
 
 for r in result:
     print(r)
